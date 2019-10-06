@@ -93,7 +93,7 @@ class Search extends Component {
                             <Profile pic={pro.backgroundPic}
                                 name={pro.fullName}
                                 title={pro.title}
-                                skill={pro.skill}
+                                skill={pro.skill} //
                             />
                         )
                         }

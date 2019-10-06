@@ -1,4 +1,4 @@
-import pic2 from './images/pic1.JPG';
+import pic3 from './images/pic1.JPG';
 import messiPic from './images/messiPic.jpg';
 import suarezPic from './images/suarezPic.jpg';
 import amitPic from './images/amitPic.png';
@@ -35,7 +35,7 @@ const profileData = {
             fullName:'Yam Gal',
             title: 'Data analyst',
             skill: 'Big Data, R',
-            backgroundPic: pic2,
+            backgroundPic: pic3, 
         }
     ]
 }
