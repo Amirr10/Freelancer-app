@@ -11,8 +11,8 @@ import React from 'react';
                     <div className="details">
                                         
                         Name - {props.name} <br />
+                        title - {props.title} <br />
                         Skills - {props.skill} <br />
-                        About - {props.about} <br />
                         
                     </div>
                             

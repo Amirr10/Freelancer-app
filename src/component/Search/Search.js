@@ -41,14 +41,14 @@ class Search extends Component {
         this.setState({ fullProfile: li });
     }
 
-    filterBySkillProfile = (skill) => {
+    filterBySkillProfile = (title) => {
         const greaterThenFive = 5; 
-        if(skill !== 'All'){
+        if(title !== 'All'){
        const filteredProfiles = ProfileData.profiles.filter((profile, i) =>
-            profile.skills === skill
+            profile.title === title
         );
         this.setState({ fullProfile: filteredProfiles });
-        } else if(skill === "All" && this.state.fullProfile.length < greaterThenFive){
+        } else if(title === "All" && this.state.fullProfile.length < greaterThenFive){
            this.componentDidMount();
         } else {
             this.setState({ fullProfile: [] });
@@ -92,8 +92,8 @@ class Search extends Component {
 
                             <Profile pic={pro.backgroundPic}
                                 name={pro.fullName}
-                                skill={pro.skills}
-                                about={pro.about}
+                                title={pro.title}
+                                skill={pro.skill}
                             />
                         )
                         }
