@@ -1,8 +1,8 @@
 import pic3 from './images/pic1.JPG';
 import messiPic from './images/messiPic.jpg';
 import suarezPic from './images/suarezPic.jpg';
-import amitPic from './images/amitPic.png';
-import yamPic from './images/yamPic.png';
+import jenPic from './images/jenPic.jpg';
+import tomPic from './images/tomPic.jpg';
 
 const profileData = {
     profiles: [
@@ -10,17 +10,17 @@ const profileData = {
             fullName:'Daniel Blake',
             title: 'Programmer',
             skill: 'java, c#',
-            backgroundPic: amitPic,
+            backgroundPic: jenPic,
         },
         {
             fullName:'John Doe',
             title: 'Data analyst',
             skill: 'SQL, Big Data',
-            backgroundPic: yamPic,
+            backgroundPic: tomPic,
         },
         {
             fullName:'Leo Messi',
-            title: 'Economics',
+            title: 'Economist',
             skill: 'Stock Broker',
             backgroundPic: messiPic,
         },
@@ -32,7 +32,7 @@ const profileData = {
            
         },
         {
-            fullName:'Yam Gal',
+            fullName:'Tom hann',
             title: 'Data analyst',
             skill: 'Big Data, R',
             backgroundPic: pic3, 
