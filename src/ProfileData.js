@@ -1,4 +1,4 @@
-import pic3 from './images/pic1.JPG';
+import pic3 from './images/pic3.jpg';
 import messiPic from './images/messiPic.jpg';
 import suarezPic from './images/suarezPic.jpg';
 import jenPic from './images/jenPic.jpg';

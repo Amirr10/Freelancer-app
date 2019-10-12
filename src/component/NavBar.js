@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Link, Switch } from 'react-router-dom';
 import Welcome from './Welcome/Welcome';
 import Search from './Search/Search';
 import Login from './Login/Login';
@@ -10,17 +10,19 @@ import Login from './Login/Login';
         <header className="navBar">
             <nav>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
+                    {/* need to Change Link  */}
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/about">About</Link></li>
                     <li className="login-nav"><a href="/login">Login</a></li>
                 </ul>
             </nav>
         </header>
 
+        <Switch>
         <Route path="/" exact component={Welcome} />
-        <Route path="/search" exact component={Search} />
-        <Route path="/login" exact component={Login} />
-
+        <Route path="/search"  component={Search} />
+        <Route path="/login"  component={Login} />
+        </Switch>
     </div>
       
     )
